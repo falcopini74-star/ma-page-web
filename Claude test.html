@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Falco</title>
+<style>
+:root{--bg:#faf6f0;--card:#fff;--text:#1d1b19;--muted:#6b645c;--accent:#d9480f;--accent2:#0b7285;--hero1:#d9480f;--hero2:#862e0b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14120f;--card:#1f1c18;--text:#f3ede4;--muted:#b3aa9d;--accent:#ff8c42;--accent2:#3bc9db;--hero1:#9c3306;--hero2:#2b0f03}}
+:root[data-theme="dark"]{--bg:#14120f;--card:#1f1c18;--text:#f3ede4;--muted:#b3aa9d;--accent:#ff8c42;--accent2:#3bc9db;--hero1:#9c3306;--hero2:#2b0f03}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,"Times New Roman",serif;line-height:1.6}
+header{background:linear-gradient(135deg,var(--hero1),var(--hero2));color:#fff;padding:56px 22px 48px;text-align:center}
+header h1{font-size:3rem;margin:0;letter-spacing:.04em}
+header p{margin:8px 0 0;font-size:1.1rem;opacity:.92;font-style:italic}
+main{max-width:720px;margin:0 auto;padding:24px 18px 40px}
+section{background:var(--card);border-radius:16px;padding:22px;margin-bottom:18px;border-left:6px solid var(--accent);box-shadow:0 2px 10px rgba(0,0,0,.12)}
+section:nth-of-type(2){border-left-color:var(--accent2)}
+h2{margin:0 0 8px;font-size:1.4rem;color:var(--accent)}
+section:nth-of-type(2) h2{color:var(--accent2)}
+p{margin:0;color:var(--muted)}
+.art{width:100%;height:auto;border-radius:12px;margin:0 0 14px;display:block}
+footer{text-align:center;color:var(--muted);padding:10px 18px 30px;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+<h1>Falco</h1>
+<p>La vie se vit à fond : foi, combat et horizons.</p>
+</header>
+<main>
+<section>
+<svg class="art" viewBox="0 0 400 160" role="img" aria-label="Lever de soleil sur les collines"><defs><linearGradient id="s1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b2a6b"/><stop offset=".55" stop-color="#e8590c"/><stop offset="1" stop-color="#ffd43b"/></linearGradient></defs><rect width="400" height="160" fill="url(#s1)"/><g stroke="#fff3bf" stroke-width="3" opacity=".55"><path d="M200 120V10M200 120L90 25M200 120L310 25M200 120L30 70M200 120L370 70"/></g><circle cx="200" cy="120" r="34" fill="#fff3bf"/><path d="M0 130Q100 100 200 125T400 118V160H0Z" fill="#5c3a1e"/><path d="M0 148Q120 125 240 146T400 140V160H0Z" fill="#2f1d0e"/></svg>
+<h2>✝️ Jésus</h2>
+<p>Un repère qui nourrit ma façon de voir la vie et d’avancer chaque jour.</p>
+</section>
+<section>
+<svg class="art" viewBox="0 0 400 160" role="img" aria-label="Gant de boxe en mouvement"><defs><linearGradient id="s2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1c1c"/><stop offset="1" stop-color="#7a0f0f"/></linearGradient></defs><rect width="400" height="160" fill="url(#s2)"/><g stroke="#fff" stroke-width="3" opacity=".35" stroke-linecap="round"><path d="M20 60H110M40 85H120M15 110H100"/></g><rect x="170" y="110" width="90" height="26" rx="6" fill="#f1f3f5"/><rect x="150" y="40" width="120" height="80" rx="38" fill="#e03131"/><ellipse cx="185" cy="108" rx="34" ry="20" fill="#c92a2a"/><rect x="230" y="55" width="36" height="12" rx="6" fill="#ff8787" opacity=".7"/><path d="M280 50l30-15M285 80h40M280 110l30 15" stroke="#ffd43b" stroke-width="5" stroke-linecap="round"/></svg>
+<h2>🥊 Sports de combat</h2>
+<p>Discipline, respect et dépassement de soi : chaque entraînement m’apprend à rester debout.</p>
+</section>
+<section>
+<svg class="art" viewBox="0 0 400 160" role="img" aria-label="Montagnes, mer et avion"><defs><linearGradient id="s3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1971c2"/><stop offset="1" stop-color="#a5d8ff"/></linearGradient></defs><rect width="400" height="160" fill="url(#s3)"/><circle cx="330" cy="40" r="20" fill="#ffe066"/><ellipse cx="90" cy="45" rx="34" ry="10" fill="#fff" opacity=".85"/><ellipse cx="250" cy="70" rx="28" ry="8" fill="#fff" opacity=".8"/><path d="M0 140L90 60L150 115L220 45L310 130L400 85V160H0Z" fill="#4a6b5d"/><path d="M220 45l-22 27 14-6 8 10 10-12 12 8z" fill="#fff"/><path d="M0 145Q100 130 200 145T400 140V160H0Z" fill="#0b7285"/><path d="M40 100Q150 20 300 30" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="6 8"/><path d="M300 30l-18-9 4 9-4 9z" fill="#fff"/></svg>
+<h2>✈️ Voyage</h2>
+<p>Découvrir d’autres cultures, d’autres paysages, et revenir avec le regard plus large.</p>
+</section>
+</main>
+<footer>Ma première page web</footer>
+</body>
+</html>
